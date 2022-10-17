@@ -5,15 +5,169 @@
 #include <conio.h>
 #include <malloc.h>
 
+int choice, choice2;
+void header (){
+	HANDLE hex=GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleTextAttribute(hex,4);
+	cout << "\t\t\t\t\t\t*************************************************************************\n";
+	
+	cout << "\t\t\t\t\t\t*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,6);
+	cout << "****";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,6);
+	cout << "****";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*************************************\n";
+	
+	cout << "\t\t\t\t\t\t*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*********";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "***";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,6);
+	cout << "****";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*************************************\n";
+	
+	
+	cout << "\t\t\t\t\t\t*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*********";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "***";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****************************************\n";
+	
+	
+	cout << "\t\t\t\t\t\t*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "***";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*****";
+	SetConsoleTextAttribute(hex,6);
+	cout << "*";
+	SetConsoleTextAttribute(hex,6);
+	cout << "****";
+	SetConsoleTextAttribute(hex,4);
+	cout << "*************************************\n";
+	
+	
+	SetConsoleTextAttribute(hex,4);
+	cout << "\t\t\t\t\t\t*************************************************************************\n";
+	cout << "\t\t\t\t\t\t\t\t\t  Powered By Nekopay\n";
+	cout << "\t\t\t\t\t\t\t\t    Bayar Tagihan Tanpa Neko-Neko";
+	//SetConsoleTextAttribute(hex,);
+}
+bool cinemas (bool booking_ticket = false){
+	do {
+	cout << "\n\t\t\t\t\t\t\t    ________________________________________________";
+	cout << "\n\t\t\t\t\t\t\t   |TEKAN 1 UNTUK MEMESAN TIKET DI BOEMI KEDATON XXI|";
+    cout << "\n\t\t\t\t\t\t\t   |TEKAN 2 UNTUK MEMESAN TIKET DI KARTINI XXI      |";
+    cout << "\n\t\t\t\t\t\t\t   |TEKAN 3 UNTUK MEMESAN TIKET DI CIPLAZ XXI       |";
+    cout << "\n\t\t\t\t\t\t\t   |TEKAN 4 UNTUK MEMESAN TIKET DI TRANSMART CGV    |";
+    cout << "\n\t\t\t\t\t\t\t   |TEKAN 9 UNTUK KELUAR DARI APLIKASI              |";
+    cout << "\n\t\t\t\t\t\t\t   |________________________________________________|";
+    cout << "\n\t\t\t\t\t\t\t    PILIHAN: ";
+    cin >> choice;
+  	switch (choice){
+	case 1:
+		cout << "\n\n\n\t\t\t\t\t\t\t\t\t===========================";
+		cout << "\n\t\t\t\t\t\t\t\t\t=====Boemi Kedaton XXI=====";
+		cout << "\n\t\t\t\t\t\t\t\t\t===========================";
+		booking_ticket = true;
+		break;
+	case 2:
+		cout << "\n\t\t\t\t\t\t\t\t\t=====================";
+		cout << "\n\t\t\t\t\t\t\t\t\t=====KARTINI XXI=====";
+		cout << "\n\t\t\t\t\t\t\t\t\t=====================";
+		booking_ticket = true;
+		break;
+	case 3:
+		cout << "\n\t\t\t\t\t\t\t\t\t======================";
+		cout << "\n\t\t\t\t\t\t\t\t\t======CIPLAZ XXI======";
+		cout << "\n\t\t\t\t\t\t\t\t\t======================";
+		booking_ticket = true;
+		break;
+	case 4:
+		cout << "\n\t\t\t\t\t\t\t\t\t=======================";
+		cout << "\n\t\t\t\t\t\t\t\t\t=====TRANSMART CGV=====";
+		cout << "\n\t\t\t\t\t\t\t\t\t=======================";
+		booking_ticket = true;
+		break;
+	default:
+		cout << "\n\n\t\t\t\t\t\t\t\t  NOMOR YANG ANDA MASUKKAN TIDAK SESUAI";
+} 
 
+}while (choice!=9 && booking_ticket!=true);
 
-
-
-
-
-
-
-
+	if (booking_ticket){
+		cout << "\n\n\t\t\t\t\t\t     Silahkan memilih judul film dan jadwal nonton yang anda inginkan";
+		cout << "\n\t\t\t\t\t\t   ___________________________________________________________________";
+		cout << "\n\t\t\t\t\t\t  |NO|        JUDUL          |     JADWAL TAYANG     |     RATING     |";
+		cout << "\n\t\t\t\t\t\t  |1 |  Beranak Dalam Kubur  |      21.15-22.45      |       R        |";
+		cout << "\n\t\t\t\t\t\t  |2 |  Beranak Dalam Kubur  |      21.15-22.45      |       R        |";
+		cout << "\n\t\t\t\t\t\t  |3 |  Beranak Dalam Kubur  |      21.15-22.45      |       R        |";
+		cout << "\n\t\t\t\t\t\t  |4 |  Beranak Dalam Kubur  |      21.15-22.45      |       R        |";
+		cout << "\n\t\t\t\t\t\t  |5 | Mahasiswa Semester 15 |     JADWAL TAYANG     |       SU       |";
+		cout << "\n\t\t\t\t\t\t  |6 |      G30S/PDIP        |     JADWAL TAYANG     |                |";
+		cout << "\n\t\t\t\t\t\t  |___________________________________________________________________|";
+	}
+    cin >> 
+}
 
 void tempatdudukbooking(){
 
@@ -251,3 +405,5 @@ cout<<"\n\n\n\n\t\t\tSilahkan Kursi Yang Anda Inginkan: ";
 int kursi[100]; 
 cin>>kursi[100]; 
 }
+
+int main
