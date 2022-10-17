@@ -1,0 +1,253 @@
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <fstream>
+#include <conio.h>
+#include <malloc.h>
+
+
+
+
+
+
+
+
+
+
+
+void tempatdudukbooking(){
+
+    system("CLS");
+cout<<"---------------------------------------------------------------------\n";
+cout<<"-----------------SILAHKAN PILIH TEMPAT DUDUK ANDA--------------------\n"; 
+cout<<"---------------------------------------------------------------------\n";
+cout<<"\n\n"; 
+   char huruf1 = 'A';
+   char huruf2 = 'B';
+   char huruf3 = 'C';
+   char huruf4 = 'D';
+   char huruf5 = 'E';
+   char huruf6 = 'F';
+   char huruf7 = 'G';
+   char huruf8 = 'H';
+   char huruf9 = 'I';
+   char huruf10 = 'J';
+   char huruf11 = 'K';
+   char huruf12 = 'L';
+   char huruf13 = 'M';
+   char huruf14 = 'O';
+   
+ for (int i=1;i<=12;i++){
+
+    cout<<"["<<huruf1<<i<<"]"<<" ";
+
+    if (i%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+ 
+for (int j=1;j<=12;j++){
+    
+    if (j==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf2<<j<<"]"<<" ";
+
+    if (j%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+
+for (int k=1;k<=12;k++){
+    
+    if (k==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf3<<k<<"]"<<" ";
+
+    if (k%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+
+
+for (int l=1;l<=12;l++){
+    
+    if (l==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf4<<l<<"]"<<" ";
+
+    if (l%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+
+for (int m=1;m<=12;m++){
+    
+    if (m==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf5<<m<<"]"<<" ";
+
+    if (m%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+
+ for (int n=1;n<=12;n++){
+    
+    if (n==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf6<<n<<"]"<<" ";
+
+    if (n%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+
+for (int o=1;o<=12;o++){
+    
+    if (o==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf7<<o<<"]"<<" ";
+
+    if (o%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+
+for (int p=1;p<=12;p++){
+    
+    if (p==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf8<<p<<"]"<<" ";
+
+    if (p%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+for (int q=1;q<=12;q++){
+    
+    if (q==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf9<<q<<"]"<<" ";
+
+    if (q%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+
+for (int r=1;r<=12;r++){
+    
+    if (r==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf10<<r<<"]"<<" ";
+
+    if (r%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+ 
+ for (int s=1;s<=12;s++){
+    
+    if (s==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf11<<s<<"]"<<" ";
+
+    if (s%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+
+for (int t=1;t<=12;t++){
+    
+    if (t==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf12<<t<<"]"<<" ";
+
+    if (t%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+ 
+ for (int u=1;u<=12;u++){
+    
+    if (u==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf13<<u<<"]"<<" ";
+
+    if (u%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+
+ for (int v=1;v<=12;v++){
+    
+    if (v==1){
+
+        cout<<endl;
+    }
+    cout<<"["<<huruf14<<v<<"]"<<" ";
+
+    if (v%4 == 0){
+
+        cout<<"\t";
+    }
+
+ }
+
+
+cout<<"\n\n\n\n________________________________LAYAR BIOSKOP__________________________________\n";
+
+cout<<"\n\n\n\t\tNote : Untuk Format Yang Dimasukan Harus Sama Dengan Tampilan Kursi Yang Ada Di Atas";
+cout<<"\n\n\n\n\t\t\tSilahkan Kursi Yang Anda Inginkan: ";
+int kursi[100]; 
+cin>>kursi[100]; 
+}
